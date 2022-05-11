@@ -601,6 +601,11 @@ border-color: #000000;
 border-radius: 15px;
 display:flexbox;
 }
+.cont h1{
+
+  text-align: center;
+  color: #CC6666;;
+}
 
 
 .cont .cinput{
