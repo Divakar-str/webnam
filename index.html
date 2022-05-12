@@ -21,27 +21,32 @@
 <div class="nav" id="nav">
 
       
-            <a href="#home" class="active" onclick="h1()"> <img src="./css/images/logo.gif" width="105"></a>
-            <a href="#home" class="logo" onclick="h1()"><h1> Sengunthar<br>
-            College of Engineering</h1></a>
-         
+  <a href="#home #nav" class="active" id="logo" onclick="h1()"> <img src="./css/images/logo.gif" width="105"></a>
+  <a href="#home #nav" class="logo" id="logo"  onclick="h1()"><h1> Sengunthar<br>
+  College of Engineering</h1></a>
         <nav class="big">
-             <a href="#home" onclick="h1()" >Home</a> 
-             <a href="#about" onclick="a1()">About us</a> 
-             <a href="#dept" onclick="d1()"">Departments</a> 
-            <a href="#infra" onclick="i1()">Infrastructures</a> 
-            <a href="#place" onclick="p1()">Placements</a> 
-            <a href="#contact" onclick="c1()">Contact us</a> 
+          
+         
+             <a href="#home #nav" onclick="h1()" >Home</a> 
+             <a href="#about #nav" onclick="a1()">About us</a> 
+             <a href="#dept #nav" onclick="d1()"">Departments</a> 
+            <a href="#infra #nav" onclick="i1()">Infrastructures</a> 
+            <a href="#place #nav" onclick="p1()">Placements</a> 
+            <a href="#contact #nav" onclick="c1()">Contact us</a> 
 
         </nav>
 
        <nav class="small">
-        <a>   <a href="#home" onclick="h1()">Home</a> 
-        <a>   <a href="#about" onclick="a1()">About us</a> 
-        <a>   <a href="#dept" onclick="d1()">Departments</a> 
-        <a>  <a href="#infra" onclick="i1()">Infrastructures</a> </li>
-        <a>  <a href="#place" onclick="p1()">Placements</a> </li>
-        <a>  <a href="#contact" onclick="c1()">Contact us</a> </li>
+         
+        <a href="#home #nav" class="active" onclick="h1()"> <img src="./css/images/logo.gif" width="105"></a>
+        <a href="#home #nav" class="logo" onclick="h1()"><h1> Sengunthar<br>
+        College of Engineering</h1></a>
+          <a href="#home #nav" onclick="h1()">Home</a> 
+        <a href="#about #nav" onclick="a1()">About us</a> 
+          <a href="#dept #nav" onclick="d1()">Departments</a> 
+         <a href="#infra #nav" onclick="i1()">Infrastructures</a> </li>
+          <a href="#place #nav" onclick="p1()">Placements</a> </li>
+         <a href="#contact #nav" onclick="c1()">Contact us</a> </li>
 
        </nav>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -60,7 +65,7 @@
 </div>
 
 <!-- home  --> 
-<div class="home " id="home"> 
+<div class="home" id="home"> 
     
 <div class="row1">
     <div class="content section" style="max-width:500px">
@@ -284,7 +289,7 @@
 <!-- Departments --> 
 <div class="dept" id="dept">
 
-
+<span class="blink"><mark style="background-color: red;"><a> Admissions Open Now !!!</a></mark></span>
 
   <div class="left " id="left" >
                    
@@ -464,9 +469,43 @@
       
       <p>Hostel</p>
     </div>
-    <p> </p>
-    <p>  </p>
-    <p></p>
+  <ul>
+    <p>
+    <ul>
+  <mark> Modernized Kitchen</mark><br>
+         <li> Hygiene Steam cooking<br></li>
+        
+        
+  </ul>
+  <ul> <mark>Drinking Water</mark><br>
+        <li>  Ozone based purification<br> </li>
+          <li>  Water Doctor in mess and in all the floors<br> </li></ul>
+
+<ul><mark> Solar Water heater</mark><br></ul>
+<ul> <mark>Telephone</mark><br> </ul>
+<ul><mark>Power Supply</mark><br>
+              <li>    Uninterrupted 24 hours power supply<br> </li>
+                <li>    Generator with 380 KVA<br> </li>
+</ul>     
+    </p>
+<ul>    <p><mark> Library</mark><br>
+    <li> News Papers and magazines<br></li></ul>
+ <ul>     <mark> Medical Care</mark><br>
+      <li>  Regular visit of Doctor<br></li>
+        <li>  Two cars for taking students to hospital in case of emergency<br></li></ul>
+    </p>
+ <ul>   <p><mark>Recreation</mark><br>
+      <li> Common room with television<br></li>
+        <li>  Movies on Sundays <br></li>
+          <li>  In-door Games <br></li>
+            <li>Snack Bar <br></li>
+              <li>Dhobi point <br></li>
+                <li> Separate Gymnasium for girls and boys <br></li>
+  <li> Play Ground <br></li>
+    <li> Orchestra during festive eves <br></li>
+      <li> Self-improvement Courses<br></li>
+        <li>Yoga and Meditation</li></p></ul>
+    </ul>
   </div>
 
 
@@ -476,9 +515,12 @@
       
       <p>Sports</p>
     </div>
-    <p> </p>
-    <p>  </p>
-    <p></p>
+    <p>Our College holds well exposed teams in Football, Basket ball, Cricket, Kabaddi,<br>
+       Ball Badminton, Shuttle badminton, Table Tennis, Boxing, Hockey, Volleyball, Take-Won-Do, Judo and Athletics (M&W).  </p>
+    <p>  Our College Students both Boys and Girls have shown their excellence in Zonal, Interzonal and <br>
+      University level Boxing,
+       Ball Badminton, Hockey, Volleyball, Basket ball, Cricket, Take-won-do, Judo and Athletics. </p>
+    <p>Our College Boys Boxing Team had won overall Championship winner up held at Chennai</p>
   </div>
 
 
@@ -592,11 +634,11 @@
       
    </div>
 
-   <div class="rowc" id="rowc">
+ 
 
 
     <div class="cont">
-                     <h1> Contact us</h1>
+      <h1> Contact us</h1>
       <form action="" onsubmit=" return sender()">
           <input type="text" name="name" id="name" placeholder="Your name" class="cinput" required>
           <input type="email" name="email" id="email" placeholder="Your email" class="cinput"  required>
@@ -606,7 +648,7 @@
   </div>
 
 
-</div>
+
 
 <!-- end of contact us --> 
 </div>
